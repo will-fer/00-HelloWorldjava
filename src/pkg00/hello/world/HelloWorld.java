@@ -15,10 +15,12 @@ public class HelloWorld {
     /**
      * @param args the command line arguments
      */
-    /*public static void main(String[] args) {
+    /* ex 2
+    public static void main(String[] args) {
         System.out.println("Affichage d'un message dans laz console");
         System.out.println("sur plusieur lignes");
     }*/
+    /* ex 3
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int x = 0;
@@ -35,6 +37,20 @@ public class HelloWorld {
         x = a;
         y = z;
         System.out.println("maintenant x est egale a " + x + " et y a " + y);
-}
+    }*/
+     ex 5
+     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = 0;
+        int b = 0;
+        
+        System.out.print("combien vaut a ? : ");
+        a = sc.nextInt();
+        System.out.print("combien vaut b ? : ");
+        b = sc.nextInt();
+        int c = (a + b)*2;
+        System.out.println("le resultat de (a+b)*2 est 5" + c);
+     }
+    
     
 }
