@@ -4,6 +4,7 @@
  */
 package pkg00.hello.world;
 
+import static java.awt.SystemColor.text;
 import java.util.Scanner;
 
 /**
@@ -15,6 +16,8 @@ public class HelloWorld {
     /**
      * @param args the command line arguments
      */
+    /* Tp 1*/
+    {
     /* ex 2
     public static void main(String[] args) {
         System.out.println("Affichage d'un message dans laz console");
@@ -38,7 +41,7 @@ public class HelloWorld {
         y = z;
         System.out.println("maintenant x est egale a " + x + " et y a " + y);
     }*/
-    /*ex 5*/
+    /*ex 5
      public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int a = 0;
@@ -50,7 +53,24 @@ public class HelloWorld {
         b = sc.nextInt();
         int c = (a + b)*2;
         System.out.println("le resultat de (a+b)*2 est 5" + c);
-     }
+     }*/
+    }
+    /*Tp 2*/
     
+    
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String mdp = "admin123";
+        
+        System.out.print("mot de passse : ");
+        String machain = sc.nextLine();
+        if (machain.equals ("admin123")){
+            System.out.println("vrais");
+        }
+        else{
+            System.out.println("faux");
+        }
+     }
+
     
 }
