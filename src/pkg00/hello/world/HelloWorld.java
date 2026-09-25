@@ -38,7 +38,7 @@ public class HelloWorld {
         y = z;
         System.out.println("maintenant x est egale a " + x + " et y a " + y);
     }*/
-     ex 5
+    /*ex 5*/
      public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int a = 0;
